@@ -23,9 +23,11 @@ class Reverse{
     public static void main(String[] args){
         Scanner obj = new Scanner(System.in);
         String s = obj.nextLine();
-        for(int i = s.length(); i>=0; i--){
-            System.out.println(i);
+        String n = " ";
+        for(int i = 23; i>=0; i--){
+            n = n + s.charAt(i);
         }
+        System.out.println(n);
     }
 }
 
