@@ -29,4 +29,5 @@ class Reverse{
     }
 }
 
-// o/p:- 
+// o/p:- The dog sit on the bench
+//   hcneb eht no tis god ehT
