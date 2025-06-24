@@ -22,3 +22,24 @@ class Palindrome{
 
 //  o/p:-  121
 //  Palindrome number
+
+import java.util.*;
+class Reverse{
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        String s = obj.nextLine();
+        String n = " ";
+        for(int i = 23; i>=0; i--){
+            n = n + s.charAt(i);
+        }
+        if(s==n){
+            System.out.println("palindrome ");
+        }else{
+            System.out.println("not a palindrome");
+        }
+    }
+}
+
+
+// o/p:- The dog sit on the bench
+// not a palindrome
