@@ -1,1 +1,1 @@
-# palindrome_in_java
+# JAVA
